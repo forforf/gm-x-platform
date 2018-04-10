@@ -1,0 +1,32 @@
+{
+  "name": "gm-x-platform",
+  "version": "0.0.1",
+  "description": "Setup the nodejs gm package (using imagemagick) for use with AWS Lambda and Macos.",
+  "main": "index.js",
+  "dependencies": {
+    "gm": "^1.23.1"
+  },
+  "scripts": {
+    "install": "node ./gm-x-platform-install.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forforf/gm-x-platform.git"
+  },
+  "keywords": [
+    "gm",
+    "imagemagick",
+    "darwin",
+    "macos",
+    "aws",
+    "lambda",
+    "bucketizer"
+  ],
+  "author": "forforf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/forforf/gm-x-platform/issues"
+  },
+  "homepage": "https://github.com/forforf/gm-x-platform#readme"
+}
